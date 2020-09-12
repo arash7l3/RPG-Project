@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Core\IAction.cs" />
     <Compile Include="Assets\Scripts\Movement\Mover.cs" />
     <None Include="Assets\Asset Packs\Synty - Polygon Student Sample\README - Usage Rights for these assets.txt" />
+    <None Include="Assets\Asset Packs\Animations by Explosive\README - Usage Rights for these assets 1.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity 2019.4/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
