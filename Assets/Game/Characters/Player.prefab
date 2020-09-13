@@ -24,9 +24,19 @@ PrefabInstance:
       propertyPath: timeBetweenAttacks
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4870181168595359000, guid: dc5d8c0645a703846b5e7e5feb559289,
+        type: 3}
+      propertyPath: weaponRange
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8647460245914100322, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647460245914100322, guid: dc5d8c0645a703846b5e7e5feb559289,
+        type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8647460245914100326, guid: dc5d8c0645a703846b5e7e5feb559289,
