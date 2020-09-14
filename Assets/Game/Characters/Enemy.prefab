@@ -28,6 +28,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chaseDistance: 5
   suspicionTime: 5
+  patrolPath: {fileID: 0}
+  waypointTolerance: 1
+  waypointDwellTime: 3
 --- !u!114 &6699107013857216285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,12 +124,12 @@ PrefabInstance:
     - target: {fileID: 8647460245914100322, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Enemy (0)
       objectReference: {fileID: 0}
     - target: {fileID: 8647460245914100326, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.964087
+      value: 13.35
       objectReference: {fileID: 0}
     - target: {fileID: 8647460245914100326, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
@@ -136,7 +139,7 @@ PrefabInstance:
     - target: {fileID: 8647460245914100326, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.103772
+      value: -16.42
       objectReference: {fileID: 0}
     - target: {fileID: 8647460245914100326, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
@@ -146,7 +149,7 @@ PrefabInstance:
     - target: {fileID: 8647460245914100326, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9289492
+      value: 0.7396359
       objectReference: {fileID: 0}
     - target: {fileID: 8647460245914100326, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
@@ -156,7 +159,7 @@ PrefabInstance:
     - target: {fileID: 8647460245914100326, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.37020734
+      value: 0.6730073
       objectReference: {fileID: 0}
     - target: {fileID: 8647460245914100326, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
@@ -171,7 +174,7 @@ PrefabInstance:
     - target: {fileID: 8647460245914100326, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 136.543
+      value: 95.401
       objectReference: {fileID: 0}
     - target: {fileID: 8647460245914100326, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}

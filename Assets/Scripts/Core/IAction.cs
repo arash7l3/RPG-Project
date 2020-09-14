@@ -1,5 +1,5 @@
 ﻿
-namespace Core.RPG
+namespace RPG.Core
 {
     public interface IAction
     {

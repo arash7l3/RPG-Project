@@ -1,9 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using RPG.Movement;
 using RPG.Core;
-using Core.RPG;
 
 namespace RPG.Combat
 {
@@ -45,12 +42,6 @@ namespace RPG.Combat
             }
         }
 
-        private void TriggetAttack()
-        {
-            GetComponent<Animator>().ResetTrigger("stopAttack");
-            GetComponent<Animator>().SetTrigger("attack");
-        }
-
         // Animation Event
         void Hit()
         {
@@ -80,6 +71,12 @@ namespace RPG.Combat
         {
             StopAttack();
             target = null;
+        }
+
+        private void TriggetAttack()
+        {
+            GetComponent<Animator>().ResetTrigger("stopAttack");
+            GetComponent<Animator>().SetTrigger("attack");
         }
 
         private void StopAttack()
