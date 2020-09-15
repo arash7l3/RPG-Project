@@ -244,6 +244,11 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7793686554985531387, guid: 33db2cc15fdb89b45b6241fa739bb436,
+        type: 3}
+      propertyPath: destination
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33db2cc15fdb89b45b6241fa739bb436, type: 3}
 --- !u!1001 &162135761
@@ -311,6 +316,11 @@ PrefabInstance:
     - target: {fileID: 2978062843035928087, guid: 39346f491f44b0043b2a8dfeb17f9103,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5860809464435238633, guid: 39346f491f44b0043b2a8dfeb17f9103,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
