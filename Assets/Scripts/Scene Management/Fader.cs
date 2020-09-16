@@ -19,8 +19,6 @@ namespace RPG.SceneManagement
                 canvasGroup.alpha += Time.deltaTime / time;
                 yield return null;
             }
-
-            StartCoroutine(FadeIn(3f));
         }
 
         public IEnumerator FadeIn(float time)
