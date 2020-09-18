@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93acbf86f87ec1e4aaecec1699e0e305, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 6
 --- !u!1001 &4926788576363263582
 PrefabInstance:
   m_ObjectHideFlags: 0
