@@ -67,6 +67,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arrow Projectile Blue
       objectReference: {fileID: 0}
+    - target: {fileID: 5576706497006183559, guid: 349c91fc18ad90b479739cc1f3d2144f,
+        type: 3}
+      propertyPath: isHoming
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6443474116539381323, guid: 349c91fc18ad90b479739cc1f3d2144f,
         type: 3}
       propertyPath: m_Parameters.colorGradient.key0.r
