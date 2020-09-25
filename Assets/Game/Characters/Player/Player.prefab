@@ -43,6 +43,11 @@ PrefabInstance:
       propertyPath: characterClass
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2638138738062245860, guid: dc5d8c0645a703846b5e7e5feb559289,
+        type: 3}
+      propertyPath: startingLevel
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4870181168595359000, guid: dc5d8c0645a703846b5e7e5feb559289,
         type: 3}
       propertyPath: timeBetweenAttacks
