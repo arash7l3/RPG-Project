@@ -23,7 +23,7 @@ namespace RPG.Combat
             {
                 Transform handTransform = GetTransform(rightHand, leftHand);
                 GameObject weapon = Instantiate(equippedPrefab, handTransform);
-                weapon.name = weaponName; ;
+                weapon.name = weaponName;
             }
 
             var overrideController = animator.runtimeAnimatorController as AnimatorOverrideController;
