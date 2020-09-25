@@ -20,11 +20,9 @@ namespace RPG.Resources
             if (health == null)
             {
                 GetComponent<Text>().text = "N/A";
+                return;
             }
-            else
-            {
-                GetComponent<Text>().text = String.Format("{0:0}%", health.GetPercentage());
-            }
+            GetComponent<Text>().text = String.Format("{0:0}%", health.GetPercentage());
         }
     }
 }
