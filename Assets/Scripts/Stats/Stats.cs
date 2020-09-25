@@ -1,8 +1,6 @@
-﻿using UnityEngine;
-
-namespace RPG.Stats
+﻿namespace RPG.Stats
 {
-    enum Stat
+    public enum Stat
     {
         Health, ExperienceReward
     }
