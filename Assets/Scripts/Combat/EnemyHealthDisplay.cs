@@ -22,7 +22,7 @@ namespace RPG.Resources
                 GetComponent<Text>().text = "N/A";
                 return;
             }
-            GetComponent<Text>().text = String.Format("{0:0}%", health.GetPercentage());
+            GetComponent<Text>().text = String.Format("{0:0}/{1::0}", health.GetHealthPoitns(), health.GetMaxHealthPoints());
         }
     }
 }
